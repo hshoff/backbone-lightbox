@@ -8,7 +8,7 @@
 
     template:  _.template(
       "<div class='lightbox-inner'>" +
-        "<div class='content row'></div>" +
+        "<div class='content'></div>" +
       "</div>"),
     className: 'lightbox',
     events: {
