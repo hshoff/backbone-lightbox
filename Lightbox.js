@@ -1,4 +1,4 @@
-(function(exports, _, Backbone){
+(function(exports, $, _, Backbone){
   var Lightbox;
 
   exports.Backpack = exports.Backpack || {};
@@ -103,4 +103,4 @@
 
   exports.Backpack.Lightbox = Lightbox;
 
-})(window, _, Backbone);
+})(window, jQuery, _, Backbone);
