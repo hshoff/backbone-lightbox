@@ -11,19 +11,19 @@
   table-layout: fixed;
   background-color: rgba(0,0,0,0.7);
   z-index: 999;
+}
 
-  .lightbox-inner {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    width: 100%;
-  }
+.lightbox > .lightbox-inner {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
 
-  .content {
-    display: inline-block;
-    outline: none;
-    text-align: left;
-    min-width: 980px;
-    max-width: 90%;
-  }
+.lightbox > .content {
+  display: inline-block;
+  outline: none;
+  text-align: left;
+  min-width: 980px;
+  max-width: 90%;
 }
