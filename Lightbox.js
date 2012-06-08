@@ -7,9 +7,9 @@
   Lightbox = Backbone.View.extend({
 
     template:  _.template(
-      "<div class='lightbox-inner'>
-        <div class='content row'></div>
-      </div>"),
+      "<div class='lightbox-inner'>" +
+        "<div class='content row'></div>" +
+      "</div>"),
     className: 'lightbox',
     events: {
       'click': 'dismiss',
@@ -34,7 +34,7 @@
     },
 
     render: function(){
-      var template = JST[this.template]();
+      var template = this.template();
       this.$el.html(template);
       return this;
     },
