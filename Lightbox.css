@@ -20,7 +20,7 @@
   width: 100%;
 }
 
-.lightbox > .content {
+.lightbox-inner > .content {
   display: inline-block;
   outline: none;
   text-align: left;
